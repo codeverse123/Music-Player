@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.pinimg.com/736x/bc/49/fc/bc49fc16bddad7e23cd698af7f5504bf.jpg" alt="song" id="song_icon">
+
+        <div class="song_details">
+            <span id="name" class="span"></span>
+            <span id="author" class="span"></span>
+        </div>
+
+        <div class="progress-container">
+            <div id="progress"></div>
+        </div>
+
+        <div class="controls">
+            <img src="https://cdn-icons-png.flaticon.com/128/3567/3567915.png" id="previous" alt="" srcset="" class="button">
+            <img src="https://cdn-icons-png.flaticon.com/128/9073/9073187.png" id="play_pause" alt="" srcset="" class="button">
+            <img src="https://cdn-icons-png.flaticon.com/128/3567/3567831.png" id="next" alt="" srcset="" class="button">
+        </div>
+        <div class="time-container">
+            <span id="current-time" class="duration">0:00</span> / <span id="duration" class="duration">0:00</span>
+        </div>
+    </div>
+
+    <audio src="starboy.mp3" id="audio"></audio>
+
+    <script src="index.js"></script>
+</body>
+</html>

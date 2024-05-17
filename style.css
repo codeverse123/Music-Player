@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    font-family: "Bai Jamjuree", sans-serif;
+    background-color: aliceblue;
+}
+.container{
+    width: 360px;
+    height: 174px;
+    position: relative;
+    display: block;
+    padding: 5px;
+    margin: 5% auto;
+    background-color: rgba(21, 21, 21, 0.551);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+#song_icon{
+    margin-left: 3px;
+    min-width: 120px;
+    max-width: 120px;
+    border-radius: 15px;
+    margin-top: 1px;
+}
+
+.song_details{
+    position: absolute;
+    padding: 3px;
+    top: 10px;
+    left: 140px;
+}
+.span{
+    display: block;
+    font-weight: 500;
+    color: white;
+}
+#author{
+    color: rgb(190, 190, 190);
+}
+
+.progress-container {
+    width: 61%;
+    background: #ddd;
+    height: 4px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 60px;
+    left: 135px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#progress {
+    width: 0;
+    height: 100%;
+    background: #007BFF;
+}
+
+.button{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.controls{
+    position: absolute;
+    bottom: 20px;
+    left: 130px;
+}
+
+.duration{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.time-container{
+    position: absolute;
+    bottom: 65px;
+    left: 135px;
+}
